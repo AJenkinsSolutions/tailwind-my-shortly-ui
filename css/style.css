@@ -558,19 +558,14 @@ video {
  * by plugins.
  */
 
-.bg-cyan-100 {
+.bg-cyan-200 {
   --tw-bg-opacity: 1;
-  background-color: rgb(207 250 254 / var(--tw-bg-opacity));
+  background-color: rgb(165 243 252 / var(--tw-bg-opacity));
 }
 
 .bg-red-100 {
   --tw-bg-opacity: 1;
   background-color: rgb(254 226 226 / var(--tw-bg-opacity));
-}
-
-.bg-cyan-200 {
-  --tw-bg-opacity: 1;
-  background-color: rgb(165 243 252 / var(--tw-bg-opacity));
 }
 
 .text-3xl {
