@@ -88,12 +88,15 @@
   <!-- Shorten container -->
   <div class="max-w-4xl p-6 mx-auto space-y-6">
     <!-- Form container  -->
-    <form action="" id="link-form" class="relative flex flex-col w-full p-10 -mt-20 space-y-4 rounded-lg bg-darkViolet md:flex-row md:space-y-0 md:space-x-3">
+    <form action="submit" id="link-form" class="relative flex flex-col w-full p-10 -mt-20 space-y-4 rounded-lg bg-darkViolet md:flex-row md:space-y-0 md:space-x-3">
       <input id="link-input" type="text" class="flex-1 p-3 placeholder-yellow-500 border-2 rounded-lg font-semi-bold focus:outline-none" placeholder="Shorten a link here">
       <button class="px-10 py-3 text-white rounded-lg bg-cyan hover:cyan-light focus:outline-none md:py-2">
         Shorten it
       </button>
+    <!-- Error  -->
+    <div id="error-msg" class="absolute text-sm italic left-7 bottom-3 text-red"> </div>
     </form>
+    
     <!-- link 1 -->
     <div class="flex flex-col items-center justify-between w-full p-6 bg-white rounded-lg md:flex-row">
       <p class="font-bold text-center text-veryDarkViolet md:text-left">
@@ -132,10 +135,7 @@
     </div>
     
   </div>
-  
-  
 
-  
 </section>
 
 
