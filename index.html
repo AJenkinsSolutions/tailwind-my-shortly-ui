@@ -18,12 +18,42 @@
         />
         <link rel="stylesheet" href="css/style.css" />
         <script src="js/script.js" defer></script>
+        <!-- <link href="./output.css" rel="stylesheet"> -->
         <title>Shortly</title>
       </head>
 <body>
 
     
-    <img src="images/logo.svg" alt="" />
+   <!-- global container -->
+   <!-- nav container -->
+
+   <nav class="container relative p-6 mx-auto">
+    <!-- flex container for all items -->
+    <div class="flex items-center justify-between">
+      
+      <!-- flex container for log img & menu -->
+      <div class="flex items-center space-x-20">
+        <!-- logo -->
+        <img src="images/logo.svg" alt="">
+        <!-- left menu -->
+        <div class="hidden space-x-8 font-bold lg:flex">
+          <a href="" class="text-grayishViolet hover:text-veryDarkViolet">Features</a>
+          <a href="" class="text-grayishViolet hover:text-veryDarkViolet">Pricing</a>
+          <a href="" class="text-grayishViolet hover:text-veryDarkViolet">Resources</a>
+        </div>
+      </div>
+
+      <!-- right buttons menu -->
+      <div class="items-center space-x-6 font-bold hiddem text-grayishViolet md:flex">
+        <div class="hover:text-veryDarkViolet">login</div>
+        <a href="" class="px-8 py-3 font-bold text-white rounded-full bg-cyan hover:opacity-70"> sign up</a>
+      </div>
+      <!-- @todo hamburger menu -->
+    </div>
+    <!-- @todo Mobile Menu -->
+   </nav>
+
+
 
 
 </body>
