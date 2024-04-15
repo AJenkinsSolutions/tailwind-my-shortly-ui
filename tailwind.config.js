@@ -11,12 +11,7 @@ module.exports = {
       veryDarkBlue: 'hsl(255, 11%, 22%)',
       veryDarkViolet: 'hsl(260, 8%, 14%) ',
     },
-    screens: {
-      sm: '480px',
-      md: '768px',
-      lg: '976px',
-      xl: '1440px',
-    },
+    
     extend: {
       
       fontFamily: {
