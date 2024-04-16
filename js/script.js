@@ -3,8 +3,20 @@ const input = document.getElementById('link-input');
 const form = document.getElementById('link-form');
 const msg = document.getElementById('error-msg');
 
+const btn = document.getElementById('menu-btn')
+const menu = document.getElementById('menu')
 
+
+btn.addEventListener('click', navToggle)
 form.addEventListener('submit', formSubmit)
+
+
+// Toggle Mobile Menu
+function navToggle() {
+    btn.classList.toggle('open')
+    menu.classList.toggle('flex')
+    menu.classList.toggle('hidden')
+  }
 
 // Validate a URL
 function validURL(str) {
